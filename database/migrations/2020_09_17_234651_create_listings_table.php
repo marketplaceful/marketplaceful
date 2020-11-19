@@ -21,7 +21,14 @@ class CreateListingsTable extends Migration
             $table->text('description')->nullable();
             $table->integer('price')->nullable();
             $table->text('feature_image_path')->nullable();
+            $table->json('photo_paths')->nullable();
+            $table->text('location_coordinates')->nullable();
+            $table->point('location_geometry', 4326)->nullable();
+            $table->boolean('featured')->default(false);
             $table->string('status', 50)->default('draft');
+            $table->schemalessAttributes('public_metadata');
+            $table->schemalessAttributes('private_metadata');
+            $table->schemalessAttributes('internal_metadata');
             $table->dateTime('published_at')->nullable();
             $table->timestamps();
         });
