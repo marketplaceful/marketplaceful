@@ -15,7 +15,7 @@
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
         "livewire/livewire": "^2.3",
-        "marketplaceful/laravel-marketplaceful": "*"
+        "marketplaceful/marketplaceful-core": "^1.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
@@ -62,10 +62,10 @@
             "@php artisan key:generate --ansi"
         ]
     },
-    "repositories": {
-        "local": {
-            "type": "path",
-            "url": "../laravel-marketplaceful"
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://satis.marketplaceful.com"
         }
-    }
+    ]
 }
