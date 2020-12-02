@@ -6,7 +6,7 @@ A web platform for quickly building online marketplaces built on Laravel.
 
 - [Marketplaceful Site](https://marketplaceful.com)
 - [Marketplaceful Documentation][docs]
-- [Marketplaceful Core Package Repo][laravel-marketplaceful-repo]
+- [Marketplaceful Core Package Repo][marketplaceful-core-repo]
 
 [docs]: https://docs.marketplaceful.com/
-[laravel-marketplaceful-repo]: https://github.com/marketplaceful/laravel-marketplaceful
+[marketplaceful-core-repo]: https://github.com/marketplaceful/marketplaceful-core
