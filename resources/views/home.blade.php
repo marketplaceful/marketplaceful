@@ -15,7 +15,7 @@
             </a>
             <div class="text-xs font-bold uppercase text-gray-600 space-x-3">
                 <a class="hover:bg-gray-200 p-2 rounded" href="/marketplaceful">Dashboard</a>
-                <a class="hover:bg-gray-200 p-2 rounded" href="https://docs.marketplaceful.com" target="_blank" rel="noopener noreferrer">Documentation</a>
+                <a class="hover:bg-gray-200 p-2 rounded" href="https://marketplaceful.com/docs" target="_blank" rel="noopener noreferrer">Documentation</a>
             </div>
         </div>
     </div>
