@@ -31,10 +31,10 @@ class UserFactory extends Factory
         ];
     }
 
-    public function super()
+    public function owner()
     {
         return $this->state([
-            'super' => true,
+            'owner' => true,
         ]);
     }
 }

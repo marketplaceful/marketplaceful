@@ -30,5 +30,6 @@ return [
 
     'features' => [
         Features::authentication(),
+        Features::settings(),
     ],
 ];

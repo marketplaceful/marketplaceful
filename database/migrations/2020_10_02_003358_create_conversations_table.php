@@ -16,7 +16,7 @@ class CreateConversationsTable extends Migration
         Schema::create('conversations', function (Blueprint $table) {
             $table->id();
             $table->uuid('uuid');
-            $table->unsignedBigInteger('listing_id')->index();
+            $table->unsignedBigInteger('order_id')->index();
             $table->timestamp('last_message_at');
 
             $table->timestamps();
